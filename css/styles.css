@@ -286,7 +286,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #FBE123;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11577,15 +11577,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #FBE123;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #FBE123;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #FBE123;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #FBE123;
   }
 }
 
@@ -11612,7 +11612,7 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: "PlayfairDisplaySC-Regular";
+  font-family: "LibreBaskerville-Regular";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -11634,9 +11634,9 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 5.0rem;
-    line-height: 5.0rem;
-    letter-spacing: 0.8rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.1rem;
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
