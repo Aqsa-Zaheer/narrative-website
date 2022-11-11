@@ -282,7 +282,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #000;
   text-decoration: underline;
 }
 a:hover {
@@ -7997,7 +7997,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .text-white-50 {
@@ -11517,7 +11517,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #FBE123;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11566,7 +11566,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #FBE123;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11577,15 +11577,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #FBE123;
+    color: #B09E19;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #FBE123;
+    color: #B09E19;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #FBE123;
+    color: #B09E19;
     outline: none;
-    border-bottom: 0.25rem solid #FBE123;
+    border-bottom: 0.25rem solid #B09E19;
   }
 }
 
@@ -11661,7 +11661,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #FBE123;
   }
 }
 .projects-section .project-text {
@@ -11703,7 +11703,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #B09E19;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11723,10 +11723,10 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(176, 158, 25, 0.53);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
