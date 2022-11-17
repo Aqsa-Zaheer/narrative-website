@@ -64,7 +64,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: rgb(0, 0, 0);
   --bs-body-bg: #fff;
 }
 
@@ -86,9 +86,9 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: #000000;
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: rgb(255, 255, 255);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -7992,7 +7992,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #ffffff9c !important;
 }
 
 .text-black-50 {
@@ -11569,10 +11569,10 @@ body {
     background-color: #FBE123;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #3B3508;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #3b3508;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11592,7 +11592,7 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Josefin Sans";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -11612,7 +11612,7 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: "LibreBaskerville-Regular";
+  font-family: "Libre Baskerville";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
