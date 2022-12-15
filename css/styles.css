@@ -80,6 +80,10 @@
   }
 }
 
+.body-background {
+  background-color: #000;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -141,19 +145,22 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 /* Featurettes End
 ------------------------- */
 
-/* Full Width Image
+/* Carousel
 ------------------------- */
 
-.bg-image-full {
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
 }
 
-/* Full Width Image End
+/* Carousel End
 ------------------------- */
+
 /*Portfolio styling from Freelancer template*/
 
 .portfolio .portfolio-item {
@@ -162,6 +169,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;
+  border-color: #e1ff00;
+  border-width: 9px;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -4247,13 +4256,14 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
+  padding-top: 0.3125rem; 
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
 }
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -6235,7 +6245,7 @@ textarea.form-control-lg {
 }
 
 .carousel.pointer-event {
-  touch-action: pan-y;
+  touch-action: smooth;
 }
 
 .carousel-inner {
