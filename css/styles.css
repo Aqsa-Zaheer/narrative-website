@@ -774,7 +774,7 @@ progress {
 .row > * {
   flex-shrink: 0;
   width: 100%;
-  max-width: 100%;
+  max-width: 87%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
@@ -8190,7 +8190,7 @@ textarea.form-control-lg {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 2.25rem !important;
 }
 
 .rounded-0 {
@@ -9300,7 +9300,7 @@ textarea.form-control-lg {
   }
 
   .mb-md-0 {
-    margin-bottom: 0 !important;
+    margin-bottom: 7px !important;
   }
 
   .mb-md-1 {
@@ -11564,6 +11564,14 @@ html {
 
 body {
   letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-brand:hover {
+  color: #FBE123;
+}
+
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #B09E19;
 }
 
 #mainNav {
